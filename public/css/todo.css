@@ -1,0 +1,44 @@
+.todo-container {
+    padding: 0 23px;
+    background-color: rgb(241, 245, 252);
+    width: 80%;
+    margin: 10px auto;
+}
+
+.heading-text {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.list-of-todos-container {
+    margin: 15px 0;
+}
+
+.list-of-todos {
+    display: flex;
+}
+
+.todo-list {
+    flex: 1;
+    list-style-type: none;
+}
+
+.todo {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(157, 160, 168);
+}
+
+.todo-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(4, 31, 71);
+}
+
+.todo-link:hover {
+    border-bottom: 4px solid rgb(255, 0, 82);
+}
+
+.text-saved {
+    font-size: 17px;
+}

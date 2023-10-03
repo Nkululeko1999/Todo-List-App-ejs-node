@@ -1,0 +1,25 @@
+.sticky-nav {
+    width: 300px;
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.date-heading {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.fa-calendar-days {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: rgb(3, 5, 17);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
