@@ -1,11 +1,17 @@
 import express from "express";
 import bodyParser from "body-parser";
+import path from "path";
 
 const app = express();
 const port = 4000;
+const __dirname = path.resolve();
 
-app.use(express.static("public"));
+app.use(express.static("../client/public"));
 app.use(bodyParser.urlencoded({extended: true}));
+
+app.set('views', path.join(__dirname, '../client/views'));
+app.set('view engine', 'ejs');
+
 
 let todos = [
     {
