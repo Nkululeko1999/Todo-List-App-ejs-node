@@ -19,6 +19,9 @@ const userSchema = new Schema({
         },
         tasks: [
           {
+            dayOfTask: {
+                type: Date,
+            },
             description: {
                 type: String,
                 unique: true,
