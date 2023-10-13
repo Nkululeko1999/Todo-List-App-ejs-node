@@ -1,6 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import path from "path";
+import loginRouter from "./routes/user.route.js";
 
 const app = express();
 const port = 4000;
@@ -64,4 +65,7 @@ app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
 
+
+//using defined routes
+app.use('/', loginRouter);
 
