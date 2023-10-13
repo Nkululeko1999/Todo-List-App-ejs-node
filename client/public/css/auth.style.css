@@ -1,0 +1,33 @@
+body {
+    background-color: #e0e4e7;
+}
+
+.form-signin, .form-signin {
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.btn {
+    width: 130px;
+}
+
+.auth-link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        margin: 0;
+    }
+    .form-signin, .form-signin {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    body {
+        margin-left: 30px;
+    }
+  }
