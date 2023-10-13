@@ -16,25 +16,7 @@ const userSchema = new Schema({
         password: {
             type: String,
             required: true,
-        },
-        tasks: [
-          {
-            dayOfTask: {
-                type: Date,
-            },
-            description: {
-                type: String,
-                unique: true,
-                required: true,
-            },
-            dueDate: Date,
-            taskStatus: {
-                type: String,
-                required: true,
-            },
-          },
-        ]
-      
+        },      
 });
 
 export const User = mongoose.model('User', userSchema);
